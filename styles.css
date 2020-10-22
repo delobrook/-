@@ -9,3 +9,61 @@ body {
     max-width: 960px;
     width: 100%;
 }
+header h1{
+    float: left;
+}
+header ul {
+    float:right;
+    list-style-type:none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+.overview-hero{
+    clear: both;
+}
+.overview-hero .overview-hero-image{
+    
+    float: left;
+}
+
+
+
+.learn-about{
+    clear: both;
+}
+.learn-about .cards{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+
+}
+.card img{
+    height: 250px;
+    width: 250px;
+}
+
+.testing-desciption {
+    float: left;
+    position: relative;
+    width: 80%;
+}
+.stories{
+    clear:left;
+}
+.stories img{
+    float:left;
+    width: 150px;
+    height: 150px;
+}
+
+.stories article{
+    clear: left;
+}
+.newsletter{
+    margin: auto;
+    
+}
+.form-group{
+    float: left;
+}
