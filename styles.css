@@ -11,9 +11,9 @@ body {
 }
 header h1{
     float: left;
+    margin-right: 300px;
 }
 header ul {
-    float:right;
     list-style-type:none;
     display: flex;
     flex-direction: row;
@@ -24,8 +24,8 @@ header ul {
     clear: both;
 }
 .overview-hero .overview-hero-image{
-    
     float: left;
+    margin-right: 75px;
 }
 
 
@@ -38,15 +38,20 @@ header ul {
     grid-template-columns: repeat(3,1fr);
 
 }
+.learn-about .card{
+    margin-right: 50px;
+}
 .card img{
     height: 250px;
     width: 250px;
 }
-
+.testing{
+    
+}
 .testing-desciption {
     float: left;
     position: relative;
-    width: 80%;
+    width: 70%;
 }
 .stories{
     clear:left;
@@ -60,10 +65,14 @@ header ul {
 .stories article{
     clear: left;
 }
-.newsletter{
-    margin: auto;
-    
+.article-body{
+    margin-left: 175px;
 }
-.form-group{
+.newsletter{
+    width: 30%;
+    margin: auto;
+    text-align: center;
+}
+ .form-group{
     float: left;
 }
