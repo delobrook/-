@@ -33,6 +33,8 @@ header li a:hover{
 }
 .overview-hero{
     clear: both;
+    background-color: #E2E8F0;
+    height: 350px;
 }
 .overview-hero .overview-hero-image{
     float: left;
